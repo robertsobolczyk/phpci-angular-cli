@@ -1,0 +1,24 @@
+{
+  "name": "robertsobolczyk/phpci-angular-cli",
+  "description": "PHPCI plugin for Angular Cli integration",
+  "keywords": ["phpci", "plugin", "angular", "angular-cli"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robert Sobolczyk",
+      "email": "sobolczyk.robert@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "block8/phpci": "1.6.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "RobertSobolczyk\\PHPCI\\": "src/"
+    }
+  }
+}
